@@ -34,6 +34,24 @@ p {
     line-height: 30px;
     margin: 0;
 }
+footer {
+    text-align: center;
+    margin: 40px 0px;
+      
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    margin: 20px 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 30px;
+    font-size: 30px;
+    color: var(--branding-color);
+}
 
 .hero {
     background-color: var(--secondary-color);
@@ -79,6 +97,36 @@ font-style: normal;
     padding: 80px 60px;
 }
 
+.inquiry {
+    background-color: var(--secondary-color);
+    padding: 0 120px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.inquiry h2 {
+    font-size: 48px;
+    padding-top: 40px;
+/*padding-bottom: 20px;*/
+}
+
+.inquiry p {
+    font-size: 18px;
+    opacity: 0.7;
+    
+}
+
+.inquiry a {
+    margin: 70px 0px;
+}
+
+.mail-link {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
 @media (max-width: 960px) {
     h1 {
         font-size: 64px;
@@ -97,4 +145,18 @@ font-style: normal;
         padding: 0;
         text-align: center;
     }
+    .inquiry {
+        padding: 15px 30px;
+        margin-top: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .inquiry h2 { 
+        font-size: 36px;
+
+    }
+.inquiry a {
+    padding: 5px;
 }
+    }
