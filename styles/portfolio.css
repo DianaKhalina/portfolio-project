@@ -34,7 +34,7 @@ p {
     line-height: 30px;
     margin: 0;
 }
-footer {
+/*footer {
     text-align: center;
     margin: 40px 0px;
       
@@ -51,7 +51,7 @@ li {
     margin: 0px 30px;
     font-size: 30px;
     color: var(--branding-color);
-}
+}*/
 
 .hero {
     background-color: var(--secondary-color);
@@ -70,6 +70,29 @@ li {
     font-weight: normal;
     color: #272142;
     margin-bottom: 65px;
+}
+
+.about-section {
+    padding: 200px 30px;
+}
+
+.about-section-content {
+    margin: 30px;
+}
+.about-section h1 {
+    font-size: 64px;
+    line-height: 85px;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.7;
 }
 
 .btn-branding {
@@ -97,7 +120,7 @@ font-style: normal;
     padding: 80px 60px;
 }
 
-.inquiry {
+/* .inquiry {
     background-color: var(--secondary-color);
     padding: 0 120px;
     border-radius: 20px;
@@ -108,7 +131,7 @@ font-style: normal;
 .inquiry h2 {
     font-size: 48px;
     padding-top: 40px;
-/*padding-bottom: 20px;*/
+padding-bottom: 20px;
 }
 
 .inquiry p {
@@ -126,7 +149,7 @@ font-style: normal;
     font-size: 24px;
     color: black;
 }
-
+*/
 @media (max-width: 960px) {
     h1 {
         font-size: 64px;
@@ -141,10 +164,16 @@ font-style: normal;
         padding: 60px 20px;
 
     }
+
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
     .project-description {
         padding: 0;
         text-align: center;
     }
+    /*
     .inquiry {
         padding: 15px 30px;
         margin-top: 80px;
@@ -158,5 +187,5 @@ font-style: normal;
     }
 .inquiry a {
     padding: 5px;
-}
+} */
     }
